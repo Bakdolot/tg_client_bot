@@ -91,5 +91,3 @@ def phone_no(message):
 def all_text_handler(message):
 	bot.reply_to(message, "Я не знаю что ответить на это. Выберите пожалуйста одну из нижепредставленных кнопок.", reply_markup=get_main_buttons())
 
-
-bot.polling()
